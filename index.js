@@ -10,4 +10,5 @@ const xablau = `
   <h2>Estamos ouvindo sua porta ${port}, viu?</h2>`;
 
 app.get('/', (req, res) => res.send(xablau));
-app.listen(port, () => console.log(`Online: ${port}`));
+
+app.listen(port);
