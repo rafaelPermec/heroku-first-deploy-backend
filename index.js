@@ -11,4 +11,4 @@ const xablau = `
 
 app.get('/', (req, res) => res.send(xablau));
 
-app.listen(port);
+app.listen(port, () => console.log(`Listen in: ${port}`));
